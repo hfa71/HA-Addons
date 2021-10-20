@@ -59,9 +59,9 @@ RUN pip3 install paho-mqtt
 #
 # Copy scripts, make executable
 #
-COPY entry.sh rtl_433_mqtt_hass.py /scripts/
+COPY entry.sh rtl_433_mqtt_ha.py /scripts/
 RUN chmod +x /scripts/entry.sh
-RUN chmod +x /scripts/rtl_433_mqtt_ha.py
+RUN chmod +x /scripts/rtl_433_mqtt_hass.py
 #
 # Execute entry script
 #
