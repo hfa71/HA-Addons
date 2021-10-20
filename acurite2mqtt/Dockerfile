@@ -61,7 +61,7 @@ RUN pip3 install paho-mqtt
 #
 COPY entry.sh rtl_433_mqtt_hass.py /scripts/
 RUN chmod +x /scripts/entry.sh
-RUN chmod +x /scripts/rtl_433_mqtt_hass.py
+RUN chmod +x /scripts/rtl_433_mqtt_ha.py
 #
 # Execute entry script
 #
