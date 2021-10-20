@@ -4,9 +4,9 @@ FROM $BUILD_FROM
 
 ENV LANG C.UTF-8
 
-MAINTAINER Jeffrey Stone
+MAINTAINER Hermann Flores
 
-LABEL Description="This image is used to start a the RTL433 to HASS script that will monitor for 433Mhz devcices and send the data to an MQTT server"
+LABEL Description=" Esto es una instalacion de prueba para obtener la data de Acurite con RTL433 a HASS el script monitorea los equipos que transmiten en 433Mhz y se envia la data al MQTT server"
 
 RUN apk add --no-cache --virtual build-deps alpine-sdk cmake git libusb-dev && \
     mkdir /tmp/src && \
