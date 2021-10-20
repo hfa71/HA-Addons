@@ -1,6 +1,6 @@
 {
   "name": "Acurite to Home Assistant",
-  "version": "0.3.8b",
+  "version": "0.1",
   "slug": "acurite2mqtt",
   "description": "Acurite Sensors a Home Assistant via MQTT con Autodiscovery",
   "url": "https://github.com/hfa71/HA-Addons",
