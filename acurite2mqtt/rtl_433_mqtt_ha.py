@@ -46,7 +46,7 @@ mappings = {
             "device_class": "temperature",
             "name": "Temperatura",
             "unit_of_measurement": "°C",
-            "value_template": "{{ value|float|round(2) }}"
+            "value_template": "{{ value|float|round(1) }}"
         }
     },
     "temperature_1_C": {
@@ -56,7 +56,7 @@ mappings = {
             "device_class": "temperature",
             "name": "Temperature 1",
             "unit_of_measurement": "°C",
-            "value_template": "{{ value|float|round(2) }}"
+            "value_template": "{{ value|float|round(1) }}"
         }
     },
     "temperature_2_C": {
@@ -66,7 +66,7 @@ mappings = {
             "device_class": "temperature",
             "name": "Temperature 2",
             "unit_of_measurement": "°C",
-            "value_template": "{{ value|float|round(2) }}"
+            "value_template": "{{ value|float|round(1) }}"
         }
     },
     "temperature_F": {
@@ -76,7 +76,7 @@ mappings = {
             "device_class": "temperature",
             "name": "Temperature",
             "unit_of_measurement": "°F",
-            "value_template": "{{ value|float|round(2) }}"
+            "value_template": "{{ value|float|round(1) }}"
         }
     },
 
@@ -242,7 +242,7 @@ mappings = {
         "config": {
             "name": "Rain Total",
             "unit_of_measurement": "mm",
-            "value_template": "{{ value|float|round(2) }}"
+            "value_template": "{{ value|float|round(1) }}"
         }
     },
 
